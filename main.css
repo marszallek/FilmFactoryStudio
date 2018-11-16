@@ -3,7 +3,7 @@
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Slabo 27px', Sans-Serif;
 }
 #nav
 {
@@ -27,7 +27,6 @@
 {
     text-align: center;
     font-size: 160%;
-    color: #914196;
     padding: 60px;
 }
 .frames
