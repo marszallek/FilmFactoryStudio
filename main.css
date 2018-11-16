@@ -3,12 +3,13 @@
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Slabo 27px', serif;
 }
 #nav
 {
     position: fixed;
     background-color: white;
-    padding: 20px 77px 0px 0px;
+    padding: 20px 223px 0px 0px;
     margin-top: -8px;
     opacity: 0.95;
 }
@@ -21,6 +22,13 @@
    height: 80%;
    padding-top: 50px;
 }
+#wedo
+{
+    text-align: center;
+    font-size: 4vh;
+    color: #914196;
+    padding: 60px;
+}
 .frames
 {
     margin-top: 3vh;
@@ -31,15 +39,21 @@
     height: 200px;
     font-size: 90%;
     overflow: hidden;
+    letter-spacing: 1px;
 }
 .navigation
 {
     display: inline-block;
     list-style-type: none;
-    margin: 0px 1vw 0px 1vh;
+    margin: 0px 1vw 0px 7vw;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 2fr;
     vertical-align: top;
+}
+.navigation:hover
+{
+ cursor: pointer;
+ border-bottom: 1px solid grey;
 }
 .images
 {
