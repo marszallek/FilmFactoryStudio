@@ -55,6 +55,11 @@
  cursor: pointer;
  border-bottom: 1px solid grey;
 }
+#logo:hover
+{
+    cursor: default;
+    border-bottom: 0px
+}
 .images
 {
     height: 200px;
