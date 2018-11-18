@@ -3,7 +3,7 @@
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Slabo 27px', Sans-Serif;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 #nav
 {
@@ -48,7 +48,7 @@
     letter-spacing: 2px;
     font-size: 2fr;
     vertical-align: top;
-    padding: 10px 67px 0px 67px;
+    padding: 10px 60px 0px 60px;
 }
 .navigation:hover
 {
