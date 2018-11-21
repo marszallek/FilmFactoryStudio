@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
-    <script src="main.js"></script>
+    
 </head>
 <body>
     <div id="container">
@@ -15,11 +15,18 @@
                 <ul id="nav">
                     <li class="navigation" id="logo"><img src="logo.jpg" alt="logo"></li>
                     <a href="team.html"><li class="navigation">TEAM</li></a>
-                    <li class="navigation">EQUIPMENT</li>
+                    <a href="equipment.html"><li class="navigation">EQUIPMENT</li></a>
                     <li class="navigation">CONTACT</li>
                 </ul><!--nav-->
                 <br />
-                <img id="studio" src="studio.png" alt="studio">
+                <div id="slides" onload="carusel()">
+                <img class="mySlides" src="s1.jpg" alt="s1">
+                <img class="mySlides" src="s2.jpg" alt="s2">
+                <img class="mySlides" src="s3.jpg" alt="s3">
+                <img class="mySlides" src="s4.jpg" alt="s4">
+                <img class="mySlides" src="s5.jpg" alt="s5">
+                <img class="mySlides" src="s6.jpg" alt="s6">
+                </div><!--slides-->
                 <div id="wedo">What We Do :</div>
         </header>
         <content>
@@ -81,6 +88,7 @@
                     </ul>
             </div><!--audiobook-->
         </content>
+        <script src="main.js"></script>
     </div><!--container-->
 </body>
 </html>

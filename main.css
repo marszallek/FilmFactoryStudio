@@ -27,14 +27,14 @@ header
     opacity: 0.95;
     justify-content: center;
 }
-#studio
+.mySlides
 {
    display: block; 
    margin-right: auto;
    margin-left: auto;
-   margin-top: 70px;
-   width: 85%;
-   height: 85%;
+   margin-top: 50px;
+   width: 75%;
+   height: 75%;
    box-shadow: 0 0 30px grey;
 }
 #wedo
